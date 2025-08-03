@@ -24,3 +24,10 @@ A simple React application demonstrating basic React concepts and createElement 
 - React 18
 - ReactDOM 18
 - Vanilla JavaScript 
+
+# Parcel
+- Dev Build
+- Local server
+- HMR = Hot Module Replacement
+- File Watching Algorithm - written in C++
+- Caching
