@@ -2,10 +2,6 @@
 
 A simple React application demonstrating basic React concepts and createElement usage.
 
-## Features
-- Basic React createElement usage
-- Multiple child components
-- Proper key props for list items
 
 ## Technologies Used
 - React 19
@@ -33,21 +29,19 @@ A simple React application demonstrating basic React concepts and createElement 
 - HTTPs
 - Tree Shaking - remove unused code 
 
-## Build Types
 
-### Development Build
-- **Command:** `npx parcel index.html` or `npm start`
-- **Purpose:** When developing locally
-- **Features:** Fast builds, hot reloading, readable code
-
-### Production Build  
-- **Command:** `npx parcel build index.html` or `npm run build`
-- **Purpose:** When ready to deploy to production
-- **Features:** Minified code, optimized performance
-- **Note:** Production builds take more time than dev builds
-
-## How to Run
-1. Install dependencies: `npm install`
-2. Start development server: `npm start`
-3. Open browser: `http://localhost:1234`
     
+BABEL- Babel is a JavaScript Compiler Package.
+Babel converts the JSX code to React Element.
+
+Parcel  is a package - bundler package.Parcel uses Babel.
+
+Packages are managed by npm
+JSX Code is not HTML
+
+JSX transpiled before it reaches the js engine.
+transpiled is done by Parcel -Bable(js compiler) 
+ 
+ - React Functional Component : It is just a Js
+  function that returns a react element or JSX code.
+  -Component composition : Composing 2 components to one another.
