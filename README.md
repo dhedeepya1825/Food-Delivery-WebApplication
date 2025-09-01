@@ -45,3 +45,23 @@ transpiled is done by Parcel -Bable(js compiler)
  - React Functional Component : It is just a Js
   function that returns a react element or JSX code.
   -Component composition : Composing 2 components to one another.
+
+
+- 2 TYPES OF EXPORT/IMPORT:
+
+-DEFAULT EXPORT/IMPORT: 
+export default component;
+import component from "path";
+
+-NAMED EXPORT/IMPORT:
+export const component;
+import {component} from "path";
+
+WHENEVER STATE VARIABLE UPDATE , REACT TRIGGERS A RECONSILIATION CYCLE(RERENDERS THE COMPONENT)
+->if there is no dependancy then useEffect is called on every render
+->if there is dependancy is emptyi.e,[] then useEffect is called on initial render (only once)
+->if there is dependancy is i.e,[btnName] then useEffect is called everytime btnName is updated
+
+TWO TYPES OF ROUTING
+1)CLIENT-SIDE ROUTING
+2)SERVER-SIDE ROUTING
